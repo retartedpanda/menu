@@ -1,0 +1,35 @@
+.header {
+    background-image:url(/app/img/bg.jpg);
+    main {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+        color: #fff;
+        font-family:'Yeseva One',cursive;
+        text-shadow: 5px 5px #000;
+        font-size: 90px;
+        line-height: 104px;
+        
+        }
+        h1::after {
+            content:"";
+            display: block;
+            background-image: url(/app/img/vec.png);
+            height: 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 60px;
+        }
+        input {
+            font-size: 18px;
+            line-height: 32px;
+            padding: 30px;
+            margin: 0px 15px;
+            background-color:rgba(255, 255, 255, 0.6);
+            font-family:Lato,sans-serif ;
+            color: #fff;
+        }
+        
+    }
+}

@@ -1,4 +1,141 @@
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Yeseva+One&display=swap");
+.about {
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .about h2 {
+    color: #CC9900;
+    font-size: 36px;
+    line-height: 40px; }
+  .about h2::after {
+    content: "";
+    display: block;
+    height: 25px;
+    background-image: url(/app/img/decoration\ 4\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px; }
+  .about__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .about__item p {
+      width: 75%;
+      font-family: Lato,sans-serif;
+      font-size: 16px;
+      line-height: 29px;
+      text-align: center; }
+    .about__item p::after {
+      content: "";
+      display: block;
+      background-image: url(/app/img/33195c991222f30362f98c0f1873879c.png);
+      height: 300px;
+      background-repeat: no-repeat;
+      background-position: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+section {
+  padding: 100px 0;
+  min-height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid #313131; }
+
+main {
+  display: flex;
+  min-height: 550px; }
+
+h1, h2, h3, h4 {
+  font-family: 'Yeseva One', cursive;
+  text-align: center; }
+
+h2::after, h3::after, h4::after {
+  margin-top: 25px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+p {
+  font-family: lato,sans-serif; }
+
+ul {
+  list-style-type: none; }
+
+.header {
+  background-image: url(/app/img/bg.jpg); }
+  .header main {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .header main h1 {
+      color: #fff;
+      font-family: 'Yeseva One',cursive;
+      text-shadow: 5px 5px #000;
+      font-size: 90px;
+      line-height: 104px; }
+    .header main h1::after {
+      content: "";
+      display: block;
+      background-image: url(/app/img/vec.png);
+      height: 50px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 60px; }
+    .header main input {
+      font-size: 18px;
+      line-height: 32px;
+      padding: 30px;
+      margin: 0px 15px;
+      background-color: rgba(255, 255, 255, 0.6);
+      font-family: Lato, sans-serif;
+      color: #fff; }
+
+.ing {
+  background-image: url(/app/img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff; }
+  .ing main {
+    align-content: flex-end;
+    min-width: 1440px; }
+  .ing div {
+    flex-basis: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 70px; }
+  .ing h2 {
+    font-size: 36px;
+    line-height: 41px; }
+  .ing h2::after {
+    content: "";
+    display: block;
+    background-image: url(/app/img/decoration\ 4\ 2.svg);
+    height: 25px; }
+  .ing p {
+    margin-top: 30px;
+    text-align: center; }
+  .ing ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px; }
+  .ing__li {
+    width: 115px;
+    height: 115px;
+    border: 5px solid rgba(204, 153, 0, 0.5);
+    overflow: hidden;
+    flex-basis: 25%;
+    border-radius: 100%;
+    text-align: center; }
+    .ing__li img {
+      margin: 0 auto;
+      transform: translate(-20px, -20px); }
+
+main {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0px auto; }
 
 /*# sourceMappingURL=style.css.map */

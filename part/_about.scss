@@ -1,0 +1,42 @@
+.about {
+    // background: url(/app/img/pattern.jpg), linear-gradient(270deg, (#F4F2F2 18.35%), (#FFFFFF 84.09%));
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    main {
+    }
+    h2 {
+        color:#CC9900;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    h2::after {
+        content:"";
+        display: block;
+        height: 25px;
+        background-image: url(/app/img/decoration\ 4\ 2.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 20px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            width: 75%;
+            font-family: Lato,sans-serif;
+            font-size: 16px;
+            line-height: 29px;
+            text-align: center;
+        }
+        p::after {
+            content:"";
+            display: block;
+            background-image: url(/app/img/33195c991222f30362f98c0f1873879c.png);
+            height: 300px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
